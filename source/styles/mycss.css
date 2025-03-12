@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+body {
+    font-family: Roboto, serif;
+    background: linear-gradient(90deg, #13737a 0%, #474747 100%);
+}
+
+.nav-link {
+    color: aquamarine;
+}
+.navbar-nav .nav-link.active {
+    color: rgb(168, 168, 168);
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.navbar-toggler {
+    background-color: rgb(168, 168, 168);
+}
+
+.sidebar {
+    color: aquamarine;
+    background: linear-gradient(270deg, #13737a 0%, #474747 100%);
+}
+
+.card {
+    background: linear-gradient(270deg, #13737a 0%, #474747 100%);
+    color: aquamarine;
+}
+
+.card a {
+text-decoration: none;
+color: aquamarine;
+}
+
+.slide-text,
+.footer-text {
+    color: aquamarine;
+    margin: auto auto;
+}
+
+footer {
+        background: linear-gradient(270deg, #13737a 0%, #474747 100%);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
